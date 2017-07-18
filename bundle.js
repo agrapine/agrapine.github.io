@@ -22438,10 +22438,15 @@ var App = function (_React$Component) {
     _createClass(App, [{
         key: "render",
         value: function render() {
+
             return _react2.default.createElement(
-                "h1",
+                "div",
                 null,
-                "so... smarter each day"
+                _react2.default.createElement(
+                    "h1",
+                    null,
+                    ".|.|\uD83D\uDC02"
+                )
             );
         }
     }]);
